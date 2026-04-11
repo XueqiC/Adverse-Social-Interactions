@@ -16,13 +16,6 @@ bash micro/run_batch.sh
 DATASET=bs bash micro/run_batch.sh
 ```
 
-If you stay in `/largedisk/xueqic/Dropbox/polar`, you can run:
-
-```bash
-python code_submission/Adverse-Social-Interactions/micro/run_analysis.py --dataset twitter --snapshot 0
-bash code_submission/Adverse-Social-Interactions/micro/run_batch.sh
-```
-
 Expected data locations by default:
 
 - Twitter: `final_twitter_dataset/largest_cluster/<week>weeks_largest_cluster.npy`
