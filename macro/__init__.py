@@ -1,0 +1,1 @@
+"""Macro-level analysis package."""
