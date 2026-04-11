@@ -26,7 +26,7 @@ Inputs (defaults follow your repo layout)
   data/block_edges.csv         columns: blocker, blocked, [created_at]
   data/follow_edges.csv        columns: follower, followee, [created_at]
 
-Outputs (all under qinwen/scripts/output by default)
+Outputs (all under meso/cascade/output by default)
 ---------------------------------------------------
   cascade_edges_new.jsonl      per inferred edge
   cascade_stats_new.jsonl      per target summary (includes level_counts)
@@ -634,4 +634,3 @@ def main(args: argparse.Namespace) -> None:
 if __name__ == "__main__":
     parser = build_argparser()
     main(parser.parse_args())
-

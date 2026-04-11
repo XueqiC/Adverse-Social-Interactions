@@ -24,7 +24,7 @@ Each user A selects at most one parent: the candidate B with the latest t_B.
 Outputs mirror `cascading_trees_new.py` for easy plotting.
 
 Recommended run (uses conda env with fast JSON if available):
-  conda run -n antisocial python qinwen/scripts/cascading_toxic_trees_new.py --tox_abs 0.8
+  conda run -n antisocial python meso/cascade/cascading_toxic_trees_new.py --tox_abs 0.8
 """
 
 from __future__ import annotations
@@ -584,4 +584,3 @@ def main(args: argparse.Namespace) -> None:
 
 if __name__ == "__main__":
     main(build_argparser().parse_args())
-

@@ -32,7 +32,7 @@ def build_argparser() -> argparse.ArgumentParser:
     )
     ap.add_argument(
         "--outdir",
-        default="qinwen/scripts/output/figures_toxic_depth_trend",
+        default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "output", "figures_toxic_depth_trend"),
         help="output directory",
     )
     ap.add_argument("--max_depth", type=int, default=12, help="cap depths for plotting (tail aggregated)")
@@ -165,4 +165,3 @@ def main(args: argparse.Namespace) -> None:
 
 if __name__ == "__main__":
     main(build_argparser().parse_args())
-
