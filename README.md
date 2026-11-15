@@ -1,6 +1,6 @@
 # Adverse-Social-Interactions
 
-Code for analyzing the evolutionary impact of adverse social interactions in online social networks.
+This is the official repository for the WSDM 2027 paper "Adverse Online Social Interactions: A Multi-Level Evolutionary Analysis of Local Patterns, Diffusion, and Community Disruption"
 
 This repository implements a multi-level framework that combines structural disconnection signals, such as blocking or unfollowing, with content-level toxicity. The code supports three analytical levels:
 
