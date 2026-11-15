@@ -1,4 +1,4 @@
-# Adverse-Social-Interactions
+# Adverse Online Social Interactions: A Multi-Level Evolutionary Analysis of Local Patterns, Diffusion, and Community Disruption
 
 This is the official repository for the WSDM 2027 paper "Adverse Online Social Interactions: A Multi-Level Evolutionary Analysis of Local Patterns, Diffusion, and Community Disruption"
 
